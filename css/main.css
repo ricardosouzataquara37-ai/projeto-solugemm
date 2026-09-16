@@ -1,0 +1,128 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CABEÇALHO */
+.topo {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.topo h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.destaques-topo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #4cd137;
+}
+
+/* SEÇÃO DE SERVIÇOS (PAINÉIS) */
+.titulo-secao {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #203a43;
+}
+
+.grade-paineis {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.painel {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.painel:hover {
+    transform: translateY(-5px); /* Efeito sutil ao passar o mouse */
+}
+
+.icone-servico {
+    font-size: 35px;
+    color: #e67e22; /* Tom laranja que lembra chama de gás */
+    margin-bottom: 15px;
+}
+
+.painel h3 {
+    color: #203a43;
+    margin-bottom: 10px;
+}
+
+.painel p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* SEÇÃO DE CONTATO / BOTÃO WHATSAPP */
+.secao-contato {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    margin: 40px 0;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.botao-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    transition: background-color 0.2s;
+}
+
+.botao-whatsapp:hover {
+    background-color: _#20ba5a;
+    background-color: #1ebd56;
+}
+
+.telefones {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #444;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #203a43;
+    color: white;
+    font-size: 13px;
+}
